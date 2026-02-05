@@ -45,7 +45,7 @@ export default function App() {
         </div>
         <div className="flex items-center gap-4">
           <div className="text-right hidden sm:block">
-            <p className="text-[10px] text-zinc-600 uppercase tracking-widest font-bold">Network</p>
+            <p className="text-[10px] text-zinc-600 uppercase tracking-widest font-bold">Rangkaian</p>
             <p className="text-xs font-black vibe-text italic uppercase">pharos</p>
           </div>
           <Zap className="w-4 h-4 vibe-text" />
@@ -58,7 +58,7 @@ export default function App() {
             <img src={userAvatar} className="w-14 h-14 rounded-2xl border-2 vibe-border p-1 bg-black shadow-lg" alt="avatar" />
             <textarea 
               className="w-full bg-transparent border-none focus:outline-none text-xl h-32 placeholder:text-zinc-800"
-              placeholder="apa kedaulatan lo hari ini?"
+              placeholder="apa kedaulatan anda harini?"
               value={content}
               onChange={(e) => setContent(e.target.value)}
             />
@@ -72,7 +72,7 @@ export default function App() {
             
             <div className="flex items-center gap-8">
               <div className="text-right">
-                <p className="text-[9px] text-zinc-700 font-black uppercase tracking-widest">Asset</p>
+                <p className="text-[9px] text-zinc-700 font-black uppercase tracking-widest">Aset</p>
                 <p className="text-sm font-black vibe-text italic uppercase">phrs</p>
               </div>
               <button 
